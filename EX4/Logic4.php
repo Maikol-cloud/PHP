@@ -1,5 +1,6 @@
 <?php
 
+if (isset($_POST["estilo"])) {
 
 $opt = $_POST["estilo"];  
 
@@ -22,6 +23,12 @@ switch ($opt) {
     default: 
         echo "no has escollit res"; 
 
-}
+}}
+
+    else {
+        echo "No has escollit cap estil"; 
+    }
+
+echo "<form action ='Index4.html' method= 'post'><button>Tornar</button></form>"; 
 
 ?>
