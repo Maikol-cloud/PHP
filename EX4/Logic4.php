@@ -1,6 +1,7 @@
 <?php
 
-$opt = $_GET["estilo"];  
+
+$opt = $_POST["estilo"];  
 
 switch ($opt) {
     case "Cumbia":  

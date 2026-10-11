@@ -1,14 +1,14 @@
 <?php
 //comprobacion 
-if  (isset($_GET["nom"]) &&
-    isset($_GET["cognoms"]) &&
-    isset($_GET["email"]) &&
-    isset($_GET["missatge"])) {
+if  (isset($_POST["nom"]) &&
+    isset($_POST["cognoms"]) &&
+    isset($_POST["email"]) &&
+    isset($_POST["missatge"])) {
     
-    $nom = $_GET["nom"];
-    $cognoms = $_GET["cognoms"];
-    $email = $_GET["email"];
-    $missatge = $_GET["missatge"];
+    $nom = $_POST["nom"];
+    $cognoms = $_POST["cognoms"];
+    $email = $_POST["email"];
+    $missatge = $_POST["missatge"];
 
 
     
